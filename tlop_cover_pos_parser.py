@@ -127,7 +127,8 @@ def make_css(scaling_factor = 2):
     transform: translate(-{h_off}, -{v_off});
     {text_shadows}
 }}
-#text:focus {{outline: none;}}
+#text:hover{{color:rgb(200,100,40)}}
+#text:focus {{color:rgb(200,100,40); outline: none;}}
 #text:after{{
     display:block;
     content:'';
