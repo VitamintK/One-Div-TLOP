@@ -141,7 +141,7 @@ def make_css(scaling_factor = 2):
     left:{imgx}px;
 }}""".format(font_size = 27/scaling_factor, text_shadows = t_s, imgh = 164/scaling_factor,
              imgw = 236/scaling_factor, imgy = 724/scaling_factor, imgx = 50/scaling_factor,
-             h_off = '220px', v_off = '190px')
+             h_off = '220px', v_off = '238px')
     with open('css.css', 'w') as f:
         f.write(css)
 
