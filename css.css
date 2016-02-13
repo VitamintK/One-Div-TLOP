@@ -1,5 +1,8 @@
+html{
+        min-width:600px;
+}
 body{
-    background:rgb(247, 140, 88)
+    background:rgb(247, 140, 88);
 }
 #text{
     color:rgb(247, 140, 88);
